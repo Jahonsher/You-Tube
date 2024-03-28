@@ -1,0 +1,18 @@
+{
+    "youtube":[
+        {
+            "id":"1",
+            "name":"Doğu Karadeniz Dağlarında Bisikletle Geziyoruz #100",
+            "text":"Yiğit Can İÇ 27K views 1 day ago",
+            "img":"./images/img/content-video-thumbnail.svg",
+            "img2": "./images/icon/sub-photo.svg"
+        },
+        {
+            "id":"2",
+            "name":"Her Derde Deva: CSS Flexbox",
+            "text":"Adem Ilter 16K views  • 2 year ago",
+            "img":"./images/img/content-video-thumbnail (2).svg",
+            "img2":"./images/icon/sub-photo (1).svg"
+        }
+    ]
+}

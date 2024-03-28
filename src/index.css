@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  width: 1504px;
+  height: 890px;
+  background-color: rgb(107, 107, 107);
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container .header  {
+  display: flex;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.container input {
+  margin-left: 150px;
+  margin-top: 7px;
+  width: 625px;
+  height: 32px;
+  background-color: gray;
+  border: 2px solid rgb(173, 173, 173);
+  border-radius: 5px;
+  color: rgb(224, 223, 223);
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.container .icon {
+  margin-left: 250px;
+}
+.container div .left {
+  width: 240px;
+  height: 844px;
+  background-color: rgb(33, 33, 33, 1);
+}
+
+.container div .left div {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.container div .left div p {
+  color: white;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.container div .left h4 {
+  margin-left: 20px;
+  color: gray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container div {
+  display: flex;
+}
+
+.container div .right {
+  width: 1264px;
+  height: 84px;
+  background-color: rgb(33, 33, 33, 1);
+}
+.container div .right .top {
+  width: 100%;
+  height: 58px;
+
+}
+
+.container div .right .top button {
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 16px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.container div .right .top img {
+  margin-left: 15px;
+  transform: rotate(270deg);
+  width: 24px;
+  cursor: pointer;
+}
+
+.container div .right .bottom {
+  width: 100%;
+  height: 786px;
+  background-color: black;
+  display: block;
+}
+
+.container div .right .bottom img {
+  width: 1216px;
+  padding-top: 10px;
+  margin-left: 20px;
+  display: block;
 }
